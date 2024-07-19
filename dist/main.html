@@ -685,11 +685,11 @@
             </div>
           </section>
           <section class="main-collections white" data-section-color="black">
-            <div class="collection-slider">
+            <div class="collection-slider" data-collection-slider="data-collection-slider">
               <div class="collection-slider__inner"> 
                 <div class="collection-slider__scene"> 
                   <p class="collection-slider__pretitle">Коллекции</p>
-                  <div class="collection-slider__btns"> 
+                  <div class="collection-slider__btns">
                     <button class="collection-slider__btns-button active" data-collection-btn="Activity">Activity</button>
                     <button class="collection-slider__btns-button" data-collection-btn="Glority">Glority</button>
                     <button class="collection-slider__btns-button" data-collection-btn="Eclipse">Eclipse</button>
@@ -699,7 +699,7 @@
                     <button class="collection-slider__btns-button" data-collection-btn="Priority">Priority</button>
                     <button class="collection-slider__btns-button" data-collection-btn="Liberty">Liberty</button>
                   </div>
-                  <div class="collection-slider__backgrounds"> 
+                  <div class="collection-slider__backgrounds">
                     <div class="collection-slider__backgrounds-img active" data-collection-bg="Activity"> 
                       <picture class="picture">
                         <source class="lazyload" type="image/webp" srcset="webp/collection-anim-bg1.webp " alt="collection-anim-bg1.png"/>
@@ -714,9 +714,51 @@
                         <source class="lazyload" srcset="images/collection-anim-bg2.png " alt="collection-anim-bg2.png"/><img class="picture__img lazyload" data-src="images/collection-anim-bg2.png" alt="collection-anim-bg2.png"/>
                       </picture>
                     </div>
+                    <div class="collection-slider__backgrounds-img" data-collection-bg="Eclipse"> 
+                      <picture class="picture">
+                        <source class="lazyload" type="image/webp" srcset="webp/collection-anim-bg3.webp " alt="collection-anim-bg3.png"/>
+                        <source class="lazyload" srcset="images/collection-anim-bg3.jpg " alt="collection-anim-bg3.png"/>
+                        <source class="lazyload" srcset="images/collection-anim-bg3.png " alt="collection-anim-bg3.png"/><img class="picture__img lazyload" data-src="images/collection-anim-bg3.png" alt="collection-anim-bg3.png"/>
+                      </picture>
+                    </div>
+                    <div class="collection-slider__backgrounds-img" data-collection-bg="Fantasy"> 
+                      <picture class="picture">
+                        <source class="lazyload" type="image/webp" srcset="webp/collection-anim-bg4.webp " alt="collection-anim-bg4.png"/>
+                        <source class="lazyload" srcset="images/collection-anim-bg4.jpg " alt="collection-anim-bg4.png"/>
+                        <source class="lazyload" srcset="images/collection-anim-bg4.png " alt="collection-anim-bg4.png"/><img class="picture__img lazyload" data-src="images/collection-anim-bg4.png" alt="collection-anim-bg4.png"/>
+                      </picture>
+                    </div>
+                    <div class="collection-slider__backgrounds-img" data-collection-bg="Infinity"> 
+                      <picture class="picture">
+                        <source class="lazyload" type="image/webp" srcset="webp/collection-anim-bg5.webp " alt="collection-anim-bg5.png"/>
+                        <source class="lazyload" srcset="images/collection-anim-bg5.jpg " alt="collection-anim-bg5.png"/>
+                        <source class="lazyload" srcset="images/collection-anim-bg5.png " alt="collection-anim-bg5.png"/><img class="picture__img lazyload" data-src="images/collection-anim-bg5.png" alt="collection-anim-bg5.png"/>
+                      </picture>
+                    </div>
+                    <div class="collection-slider__backgrounds-img" data-collection-bg="Reality"> 
+                      <picture class="picture">
+                        <source class="lazyload" type="image/webp" srcset="webp/collection-anim-bg6.webp " alt="collection-anim-bg6.png"/>
+                        <source class="lazyload" srcset="images/collection-anim-bg6.jpg " alt="collection-anim-bg6.png"/>
+                        <source class="lazyload" srcset="images/collection-anim-bg6.png " alt="collection-anim-bg6.png"/><img class="picture__img lazyload" data-src="images/collection-anim-bg6.png" alt="collection-anim-bg6.png"/>
+                      </picture>
+                    </div>
+                    <div class="collection-slider__backgrounds-img" data-collection-bg="Priority"> 
+                      <picture class="picture">
+                        <source class="lazyload" type="image/webp" srcset="webp/collection-anim-bg7.webp " alt="collection-anim-bg7.png"/>
+                        <source class="lazyload" srcset="images/collection-anim-bg7.jpg " alt="collection-anim-bg7.png"/>
+                        <source class="lazyload" srcset="images/collection-anim-bg7.png " alt="collection-anim-bg7.png"/><img class="picture__img lazyload" data-src="images/collection-anim-bg7.png" alt="collection-anim-bg7.png"/>
+                      </picture>
+                    </div>
+                    <div class="collection-slider__backgrounds-img" data-collection-bg="Liberty"> 
+                      <picture class="picture">
+                        <source class="lazyload" type="image/webp" srcset="webp/collection-anim-bg8.webp " alt="collection-anim-bg8.png"/>
+                        <source class="lazyload" srcset="images/collection-anim-bg8.jpg " alt="collection-anim-bg8.png"/>
+                        <source class="lazyload" srcset="images/collection-anim-bg8.png " alt="collection-anim-bg8.png"/><img class="picture__img lazyload" data-src="images/collection-anim-bg8.png" alt="collection-anim-bg8.png"/>
+                      </picture>
+                    </div>
                   </div>
-                  <div class="collection-slider__contents"> 
-                    <div class="collection-slider__item collection-slider__item_type1" data-collection-item="Activity">
+                  <div class="collection-slider__contents">
+                    <div class="collection-slider__item active collection-slider__item_type1" data-collection-item="Activity">
                       <p class="collection-slider__item-description text-20">Для деятельных и активных, кто готов к смелым экспериментам и любит необычные цвета и сочетание фактур, при этом ценит функциональность и практичность.</p>
                       <div class="collection-slider__item-texts"> 
                         <p class="collection-slider__item-title title-200i">Activity</p>
@@ -774,6 +816,210 @@
                           <source class="lazyload" type="image/webp" srcset="webp/collection-anim-img2.webp " alt="collection-anim-img2.png"/>
                           <source class="lazyload" srcset="images/collection-anim-img2.jpg " alt="collection-anim-img2.png"/>
                           <source class="lazyload" srcset="images/collection-anim-img2.png " alt="collection-anim-img2.png"/><img class="picture__img lazyload" data-src="images/collection-anim-img2.png" alt="collection-anim-img2.png"/>
+                        </picture>
+                      </div>
+                      <div class="collection-slider__item-circle">
+                        <picture class="picture">
+                          <source class="lazyload" type="image/webp" srcset="webp/collection-anim-marble2.webp " alt="collection-anim-marble2.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-marble2.jpg " alt="collection-anim-marble2.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-marble2.png " alt="collection-anim-marble2.png"/><img class="picture__img lazyload" data-src="images/collection-anim-marble2.png" alt="collection-anim-marble2.png"/>
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="collection-slider__item collection-slider__item_type3" data-collection-item="Eclipse">
+                      <p class="collection-slider__item-description text-20">Каждая из коллекций Allen Brau уникальна и является иконой стиля благодаря необычным особенностям. Отличительная черта коллекции мебели Eclipse — интегрированная ручка на фасадах с вырезом под углом 45°.</p>
+                      <div class="collection-slider__item-texts"> 
+                        <p class="collection-slider__item-title title-200i">Eclipse</p>
+                        <div class="collection-slider__item-links"> 
+                          <div class="collection-slider__item-link"> <a class="link" href="#">
+                              <p class="link__text text-20">Подробнее</p>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="20" viewBox="0 0 11 20" fill="none">
+                                <path d="M1.40015 1.6001L9.80015 10.0001L1.40015 18.4001" stroke="black" stroke-width="1.5" stroke-linecap="square"></path>
+                              </svg></a>
+                          </div>
+                          <div class="collection-slider__item-link"> <a class="link" href="#">
+                              <p class="link__text text-20">Все коллекции</p>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="20" viewBox="0 0 11 20" fill="none">
+                                <path d="M1.40015 1.6001L9.80015 10.0001L1.40015 18.4001" stroke="black" stroke-width="1.5" stroke-linecap="square"></path>
+                              </svg></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="collection-slider__item-img"> 
+                        <picture class="picture">
+                          <source class="lazyload" type="image/webp" srcset="webp/collection-anim-img3.webp " alt="collection-anim-img3.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-img3.jpg " alt="collection-anim-img3.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-img3.png " alt="collection-anim-img3.png"/><img class="picture__img lazyload" data-src="images/collection-anim-img3.png" alt="collection-anim-img3.png"/>
+                        </picture>
+                      </div>
+                      <div class="collection-slider__item-circle">
+                        <picture class="picture">
+                          <source class="lazyload" type="image/webp" srcset="webp/collection-anim-marble3.webp " alt="collection-anim-marble3.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-marble3.jpg " alt="collection-anim-marble3.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-marble3.png " alt="collection-anim-marble3.png"/><img class="picture__img lazyload" data-src="images/collection-anim-marble3.png" alt="collection-anim-marble3.png"/>
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="collection-slider__item collection-slider__item_type1" data-collection-item="Fantasy">
+                      <p class="collection-slider__item-description text-20">Коллекция мебели для деятельных и активных, кто готов к смелым экспериментам и любит необычные цвета и сочетание фактур, при этом ценит функциональность и практичность. Пеналы и тумбы представлены в 6-ти матовых оттенках лака и в отделке шпоном в цвете дуб.</p>
+                      <div class="collection-slider__item-texts"> 
+                        <p class="collection-slider__item-title title-200i">Fantasy</p>
+                        <div class="collection-slider__item-links"> 
+                          <div class="collection-slider__item-link"> <a class="link" href="#">
+                              <p class="link__text text-20">Подробнее</p>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="20" viewBox="0 0 11 20" fill="none">
+                                <path d="M1.40015 1.6001L9.80015 10.0001L1.40015 18.4001" stroke="black" stroke-width="1.5" stroke-linecap="square"></path>
+                              </svg></a>
+                          </div>
+                          <div class="collection-slider__item-link"> <a class="link" href="#">
+                              <p class="link__text text-20">Все коллекции</p>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="20" viewBox="0 0 11 20" fill="none">
+                                <path d="M1.40015 1.6001L9.80015 10.0001L1.40015 18.4001" stroke="black" stroke-width="1.5" stroke-linecap="square"></path>
+                              </svg></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="collection-slider__item-img"> 
+                        <picture class="picture">
+                          <source class="lazyload" type="image/webp" srcset="webp/collection-anim-img4.webp " alt="collection-anim-img4.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-img4.jpg " alt="collection-anim-img4.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-img4.png " alt="collection-anim-img4.png"/><img class="picture__img lazyload" data-src="images/collection-anim-img4.png" alt="collection-anim-img4.png"/>
+                        </picture>
+                      </div>
+                      <div class="collection-slider__item-circle">
+                        <picture class="picture">
+                          <source class="lazyload" type="image/webp" srcset="webp/collection-anim-marble4.webp " alt="collection-anim-marble4.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-marble4.jpg " alt="collection-anim-marble4.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-marble4.png " alt="collection-anim-marble4.png"/><img class="picture__img lazyload" data-src="images/collection-anim-marble4.png" alt="collection-anim-marble4.png"/>
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="collection-slider__item collection-slider__item_type2" data-collection-item="Infinity">
+                      <p class="collection-slider__item-description text-20">Разнообразие интерьерных решений и возможностей для дизайна. Вариативность отделок фасадов: матовое покрытие или натуральный шпон дуба. Создание интерьеров в стиле: минимализм, лофт, эко-стиль.</p>
+                      <div class="collection-slider__item-texts"> 
+                        <p class="collection-slider__item-title title-200i">Infinity</p>
+                        <div class="collection-slider__item-links"> 
+                          <div class="collection-slider__item-link"> <a class="link" href="#">
+                              <p class="link__text text-20">Подробнее</p>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="20" viewBox="0 0 11 20" fill="none">
+                                <path d="M1.40015 1.6001L9.80015 10.0001L1.40015 18.4001" stroke="black" stroke-width="1.5" stroke-linecap="square"></path>
+                              </svg></a>
+                          </div>
+                          <div class="collection-slider__item-link"> <a class="link" href="#">
+                              <p class="link__text text-20">Все коллекции</p>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="20" viewBox="0 0 11 20" fill="none">
+                                <path d="M1.40015 1.6001L9.80015 10.0001L1.40015 18.4001" stroke="black" stroke-width="1.5" stroke-linecap="square"></path>
+                              </svg></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="collection-slider__item-img"> 
+                        <picture class="picture">
+                          <source class="lazyload" type="image/webp" srcset="webp/collection-anim-img5.webp " alt="collection-anim-img5.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-img5.jpg " alt="collection-anim-img5.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-img5.png " alt="collection-anim-img5.png"/><img class="picture__img lazyload" data-src="images/collection-anim-img5.png" alt="collection-anim-img5.png"/>
+                        </picture>
+                      </div>
+                      <div class="collection-slider__item-circle">
+                        <picture class="picture">
+                          <source class="lazyload" type="image/webp" srcset="webp/collection-anim-marble5.webp " alt="collection-anim-marble5.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-marble5.jpg " alt="collection-anim-marble5.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-marble5.png " alt="collection-anim-marble5.png"/><img class="picture__img lazyload" data-src="images/collection-anim-marble5.png" alt="collection-anim-marble5.png"/>
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="collection-slider__item collection-slider__item_type3" data-collection-item="Reality">
+                      <p class="collection-slider__item-description text-20">Коллекция мебели для деятельных и активных, кто готов к смелым экспериментам и любит необычные цвета и сочетание фактур, при этом ценит функциональность и практичность. Пеналы и тумбы представлены в 6-ти матовых оттенках лака и в отделке шпоном в цвете дуб.</p>
+                      <div class="collection-slider__item-texts"> 
+                        <p class="collection-slider__item-title title-200i">Reality</p>
+                        <div class="collection-slider__item-links"> 
+                          <div class="collection-slider__item-link"> <a class="link" href="#">
+                              <p class="link__text text-20">Подробнее</p>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="20" viewBox="0 0 11 20" fill="none">
+                                <path d="M1.40015 1.6001L9.80015 10.0001L1.40015 18.4001" stroke="black" stroke-width="1.5" stroke-linecap="square"></path>
+                              </svg></a>
+                          </div>
+                          <div class="collection-slider__item-link"> <a class="link" href="#">
+                              <p class="link__text text-20">Все коллекции</p>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="20" viewBox="0 0 11 20" fill="none">
+                                <path d="M1.40015 1.6001L9.80015 10.0001L1.40015 18.4001" stroke="black" stroke-width="1.5" stroke-linecap="square"></path>
+                              </svg></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="collection-slider__item-img"> 
+                        <picture class="picture">
+                          <source class="lazyload" type="image/webp" srcset="webp/collection-anim-img6.webp " alt="collection-anim-img6.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-img6.jpg " alt="collection-anim-img6.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-img6.png " alt="collection-anim-img6.png"/><img class="picture__img lazyload" data-src="images/collection-anim-img6.png" alt="collection-anim-img6.png"/>
+                        </picture>
+                      </div>
+                      <div class="collection-slider__item-circle">
+                        <picture class="picture">
+                          <source class="lazyload" type="image/webp" srcset="webp/collection-anim-marble6.webp " alt="collection-anim-marble6.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-marble6.jpg " alt="collection-anim-marble6.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-marble6.png " alt="collection-anim-marble6.png"/><img class="picture__img lazyload" data-src="images/collection-anim-marble6.png" alt="collection-anim-marble6.png"/>
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="collection-slider__item collection-slider__item_type1" data-collection-item="Priority">
+                      <p class="collection-slider__item-description text-20">Оригинальная коллекция в стиле лофт. Тумбы комплектуются столешницей из керамогранита, которая устанавливается внутрь профиля. Зеркало PRIORITY повторяет линии каркасов тумбы и пенала.</p>
+                      <div class="collection-slider__item-texts"> 
+                        <p class="collection-slider__item-title title-200i">Priority</p>
+                        <div class="collection-slider__item-links"> 
+                          <div class="collection-slider__item-link"> <a class="link" href="#">
+                              <p class="link__text text-20">Подробнее</p>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="20" viewBox="0 0 11 20" fill="none">
+                                <path d="M1.40015 1.6001L9.80015 10.0001L1.40015 18.4001" stroke="black" stroke-width="1.5" stroke-linecap="square"></path>
+                              </svg></a>
+                          </div>
+                          <div class="collection-slider__item-link"> <a class="link" href="#">
+                              <p class="link__text text-20">Все коллекции</p>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="20" viewBox="0 0 11 20" fill="none">
+                                <path d="M1.40015 1.6001L9.80015 10.0001L1.40015 18.4001" stroke="black" stroke-width="1.5" stroke-linecap="square"></path>
+                              </svg></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="collection-slider__item-img"> 
+                        <picture class="picture">
+                          <source class="lazyload" type="image/webp" srcset="webp/collection-anim-img7.webp " alt="collection-anim-img7.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-img7.jpg " alt="collection-anim-img7.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-img7.png " alt="collection-anim-img7.png"/><img class="picture__img lazyload" data-src="images/collection-anim-img7.png" alt="collection-anim-img7.png"/>
+                        </picture>
+                      </div>
+                      <div class="collection-slider__item-circle">
+                        <picture class="picture">
+                          <source class="lazyload" type="image/webp" srcset="webp/collection-anim-marble1.webp " alt="collection-anim-marble1.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-marble1.jpg " alt="collection-anim-marble1.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-marble1.png " alt="collection-anim-marble1.png"/><img class="picture__img lazyload" data-src="images/collection-anim-marble1.png" alt="collection-anim-marble1.png"/>
+                        </picture>
+                      </div>
+                    </div>
+                    <div class="collection-slider__item collection-slider__item_type2" data-collection-item="Liberty">
+                      <p class="collection-slider__item-description text-20">Эстетика, смелый дизайн и свобода самовыражения, которая позволяет создавать воздушные, лёгкие и современные интерьеры с максимумом свободного пространства.</p>
+                      <div class="collection-slider__item-texts"> 
+                        <p class="collection-slider__item-title title-200i">Liberty</p>
+                        <div class="collection-slider__item-links"> 
+                          <div class="collection-slider__item-link"> <a class="link" href="#">
+                              <p class="link__text text-20">Подробнее</p>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="20" viewBox="0 0 11 20" fill="none">
+                                <path d="M1.40015 1.6001L9.80015 10.0001L1.40015 18.4001" stroke="black" stroke-width="1.5" stroke-linecap="square"></path>
+                              </svg></a>
+                          </div>
+                          <div class="collection-slider__item-link"> <a class="link" href="#">
+                              <p class="link__text text-20">Все коллекции</p>
+                              <svg xmlns="http://www.w3.org/2000/svg" width="11" height="20" viewBox="0 0 11 20" fill="none">
+                                <path d="M1.40015 1.6001L9.80015 10.0001L1.40015 18.4001" stroke="black" stroke-width="1.5" stroke-linecap="square"></path>
+                              </svg></a>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="collection-slider__item-img"> 
+                        <picture class="picture">
+                          <source class="lazyload" type="image/webp" srcset="webp/collection-anim-img8.webp " alt="collection-anim-img8.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-img8.jpg " alt="collection-anim-img8.png"/>
+                          <source class="lazyload" srcset="images/collection-anim-img8.png " alt="collection-anim-img8.png"/><img class="picture__img lazyload" data-src="images/collection-anim-img8.png" alt="collection-anim-img8.png"/>
                         </picture>
                       </div>
                       <div class="collection-slider__item-circle">
